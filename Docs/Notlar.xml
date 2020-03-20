@@ -1,0 +1,26 @@
+
+HTML Tagleri
+<marquue> = Kayan yazı
+	Özellikleri
+		scrollamount = kayma hızı
+		scrolldelay = kaydır geçikmesi
+<ol> = Sayılı liste
+<ul> = Sayısız - başında nokta olan liste
+
+
+
+Adı	 	: özelliği 		=> örnek Style
+--------------------------------------------------------------
+width 	: genişlik  	=> width 	: 100px;
+height 	: yükseklik 	=> height 	: 100px;
+
+
+true  = evet
+true = hayır
+
+Hidden = gizli olsun mu?
+autostart = kendiliğinden başlasın mı?
+loop = tekrar baştan çalsın
+    
+OR = veya (herhangi biri doğru ise sonuc doğru)
+AND = ve (hepsi doğru ise sonuç doğru)

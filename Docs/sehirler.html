@@ -1,0 +1,234 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet"  type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
+    <link rel="stylesheet"  type="text/css" href="./header.css"/>
+    <style>
+        .baslik{
+           margin-top:60px;
+        }
+
+        i{
+            padding-left:5px;
+        }
+        .sehirler{
+            margin: 20px;
+        }
+        .sehir{
+            height: 350px;
+            width:30%;
+            overflow: hidden;
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+        }
+        .sehir:hover .isim{
+           font-size:35px;
+           background-color: white;
+           color: #a5c139;
+           transition: all 0.3s ease;
+        }
+        .isim{
+            text-align: center;
+            font-size:30px;
+            font-weight: 700;
+            border: 1px solid #a5c139;
+            padding:  10px 20px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            background-color: #a5c139;
+            height: 30px;
+            line-height: 30px;
+            color:white;
+            transition: all 0.3s ease;
+        }
+        .resim{
+            background-size: cover;
+            background-position: center;
+            height: 300px;;
+            width: 100%;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            background-repeat: no-repeat;
+            transition: all 0.3s ease;
+        }
+        .resim:hover{
+            transition: all 0.3s ease;
+            height: 330px;
+        }
+        .cankiri{
+            background-image: url(https://mapio.net/images-p/5135363.jpg);
+        }
+        .bursa{
+            background-image: url(http://wowturkey.com/tr161/k_edip_8716_Bursevi_53.jpg);
+        }
+        .mugla{
+            background-image: url(https://www.tursab.org.tr/assets/img/fotograf-galerisi/detay/ege/mugla/Muglamerkez/asar_dagi_ve_evler_81_1063206.jpg);
+        }
+        .bolu{
+            background-image: url(http://dreamofholiday.com/userFiles/bolgeler/8948.jpg);
+        }
+        .canakkale{
+            background-image: url(https://cdnuploads.aa.com.tr/uploads/Contents/2019/03/12/thumbs_b_c_cddfd82e689c82650df37d47e981b2a2.jpg);
+        }
+        .ankara{
+            background-image: url(https://staticb.yolcu360.com/blog/wp-content/uploads/2018/06/28202338/Ankara-3.jpg);
+        }
+        .kocaeli{
+            background-image: url(https://www.azbibak.com/wp-content/uploads/2017/12/saat_kulesi_05_01.jpg);
+        }
+        .sanliurfa{
+            background-image: url(https://www.gezipedia.net/uploads/posts/2018-03/1521032905_balikli-gol.jpg);
+        }
+        .maldivler{
+            background-image: url(https://gezipgordum.com/wp-content/uploads/2017/10/maldivler-seyahati.jpg);
+        }
+        @media only screen and (max-width: 768px) {
+          .sehir{
+            width: 100%;
+            }
+        }
+
+    </style>
+<title>
+    Gezdiğimiz Yerler
+</title>
+</head>
+
+<body>
+        <header>
+            <div>
+                <i class="fas fa-globe-americas" style="color:white; font-size: 24px;"></i>
+                <span class="title">Ibrahimin Dünyası</span>
+            </div>
+            <div>
+            <div class="benimsitem">
+                <ul>
+                    <li>
+                        <a href="index.html"><i class="fas fa-home"></i> Anasayfa</a>
+                    </li>
+                    <li>
+                        <a href="hobilerim.html"><i class="fas fa-snowboarding"></i> Hobilerim</a>
+                    </li>
+                    <li class="active">
+                        <a href="sehirler.html"><i class="fas fa-route"></i> Nerelerimi Gezdik</a>
+                    </li>
+                    <li>
+                        <a href="SevdigimMuzikler.html"><i class="fab fa-itunes-note"></i> Muziklerim</a>
+                    </li>
+
+                    <li>
+                        <a href="./sevdigimOyunlar.html">
+                          <i class="fas fa-gamepad-alt"></i>
+                          oyunlar
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="digersiteler">
+                <a> Diğer Siteler</a>
+            <ul>
+                <li><a target="_blank" href="http://www.google.com"><i style="margin-right:5px;color:yellow"class="fab fa-google"></i>Google</a></li>
+                <li><a target="_blank"href="http://www.facebook.com"><i style="margin-right:5px;color:yellow"class="fab fa-facebook"></i>Facebook</a></li>
+                <li><a target="_blank"href="http://www.youtube.com"><i style="margin-right:5px;color:yellow"class="fab fa-youtube"></i>Youtube</a></li>
+                <li><a target="_blank" href="http://www.soundcloud.com"><i style="margin-right:5px;color:yellow" class="fab fa-soundcloud"></i>soundcloud</a></li>
+                <li><a target="_blank" href="http://www.gmail.com"><i style="margin-right:5px;color:yellow"class="fas fa-envelope-square"></i>Gmail</a></li>
+                <li><a target="_blank" href="http://www.Instagram.com"><i style="margin-right:5px;color:yellow"class="fab fa-instagram"></i>Instagram</a></li>
+                <li><a target="_blank" href="http://www.twitter.com"><i style="margin-right:5px;color:yellow"class="fab fa-twitter"></i>twitter</a></li>
+                <li><a target="_blank" href="http://www.messenger.com"><i style="margin-right:5px;color:yellow"class="fab fa-facebook-messenger"></i>Facebook Messenger</a></li>
+                <li><a target="_blank" href="http://tr.pinterest.com"><i style="margin-right:5px;color:yellow"class="fab fa-pinterest"></i>pinterest</a></li>
+                <li><a target="_blank" href="http://tr.whatsapp.com"><i style="margin-right:5px;color:yellow" class="fab fa-whatsapp-square"></i>whatsapp</a></li>
+                <li><a target="_blank" href="https://web.telegram.org/"><i style="margin-right:5px;color:yellow"class="fab fa-telegram"></i>telegram</a></li>
+            </ul>
+            </div>
+        </header>
+    <h1 style="margin: 80px 30px 20px 30px;">
+        Gezdiğimiz Yerler
+    </h1>
+    <div class="sehirler">
+        <div class="sehir">
+            <div class="isim">
+                <span>
+                    Çankırı
+                </span>
+            </div>
+            <div class="resim cankiri">
+            </div>
+        </div>
+        <div class="sehir">
+            <div class="isim">
+                <span>
+                    Bursa
+                </span>
+            </div>
+            <div class="resim bursa">
+            </div>
+        </div>
+        <div class="sehir">
+            <div class="isim">
+                <span>
+                    Muğla
+                </span>
+            </div>
+            <div class="resim mugla">
+            </div>
+        </div>
+        <div class="sehir">
+            <div class="isim">
+                <span>
+                    Bolu
+                </span>
+            </div>
+            <div class="resim bolu">
+            </div>
+        </div>
+        <div class="sehir">
+            <div class="isim">
+                <span>
+                    Çanakkale
+                </span>
+            </div>
+            <div class="resim canakkale">
+            </div>
+        </div>
+        <div class="sehir">
+            <div class="isim">
+                <span>
+                    Ankara
+                </span>
+            </div>
+            <div class="resim ankara">
+            </div>
+        </div>
+        <div class="sehir">
+            <div class="isim">
+                <span>
+                    Kocaeli
+                </span>
+            </div>
+            <div class="resim kocaeli">
+            </div>
+        </div>
+        <div class="sehir">
+            <div class="isim">
+                <span>
+                    Şanlıurfa
+                </span>
+            </div>
+            <div class="resim sanliurfa">
+            </div>
+        </div>
+        <div class="sehir">
+            <div class="isim">
+                <span>
+                    Maldivler
+                </span>
+            </div>
+            <div class="resim maldivler">
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

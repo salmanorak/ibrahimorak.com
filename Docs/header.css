@@ -1,0 +1,148 @@
+body{
+    margin : 0 20px;
+}
+
+header{
+    height: 60px;
+    background-color: cadetblue;
+    padding: 10px 20px 5px 20px;
+    margin: -10px -20px -5px -20px;
+    position:fixed;
+    width: 100%;
+    top:0;
+    left:0;
+}
+header li{
+    list-style: none;
+    display: inline-block;
+}
+header div{
+    display: inline-block;
+}
+header .benimsitem a{
+    min-width: 100px;
+    padding: 10px;
+    display: inline-block;
+    max-width: 400px;
+    color : white;
+    text-decoration: none;
+    border-right: 1px solid rgba(102, 108, 108, 0.4)
+}
+header .benimsitem a:nth-last-child(1){
+    border-right: none !important;
+}
+header .benimsitem a:hover{
+    background-color: white;
+    color : red;
+}
+header .benimsitem li{
+    position: relative;
+}
+header .benimsitem .active:after{
+    content : "";
+    width : 100%;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    bottom: -5px;
+    left:0;
+    margin: 0 auto;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+header .digersiteler:hover,
+header .digersiteler.active {
+    background-color: white;
+    color : red;
+}
+header .digersiteler{
+    position: relative;
+    text-decoration: none;
+    padding: 10px;
+    min-width: 165px;
+    color: white;
+}
+header .digersiteler ul{
+    display: none;
+    position: absolute;
+    margin:0;
+    padding:0;
+    top:38px;
+    left:0;
+}
+header .digersiteler li {
+    padding:10px;
+    margin:0;
+}
+header .digersiteler ul li a{
+    margin-right:5px;
+    color:yellow;
+}
+header .digersiteler:hover ul,
+header .digersiteler.active ul{
+    display:block;
+    z-index:10;
+}
+header .digersiteler li{
+    display: block;
+    background-color:cadetblue;
+    min-width:100px;
+    max-height: 30px;
+}
+header .digersiteler li:hover{
+    display: block;
+    background-color:white;
+    color:red;
+}
+.title{
+  font-size:24px;
+}
+
+@media only screen and (max-width:1200px){
+    header{
+        height:100px;
+    }
+    header+div,header+h2,header+h1,h2,header+p{
+        margin-top: 120px !important;
+        display: block;
+    }
+    header>div:nth-child(1){
+        padding-top:10px;
+    }
+}
+
+@media only screen and (max-width:950px){
+    header{
+        height:100px;
+    }
+    header+div,header+h2,header+h1,h2,header+p{
+        margin-top: 120px !important;
+        display: block;
+    }
+    header>div:nth-child(1){
+        padding-top:10px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    header{
+        height:185px;
+        position: inherit !important;
+    }
+    header+div,header+h2,header+h1,h2,header+p{
+        display: block;
+        text-align: center;
+        padding-top:10px;
+        margin-top: 10px !important;
+    }
+    header>div:nth-child(1){
+        display: block;
+        text-align: center;
+        padding-top:10px;
+    }
+    header ul{
+      margin:0 !important;
+      padding:0 !important;
+    }
+
+}

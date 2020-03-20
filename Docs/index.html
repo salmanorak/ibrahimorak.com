@@ -1,0 +1,154 @@
+<html>
+<head>
+
+  <!--ie 9dan öncesi için kodlar.-->
+<script src="./sitem/src/html5shiv.js">
+
+</script>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="description" content="ibarahim orakın sayfasıdır"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet"  type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
+    <link rel="stylesheet"  type="text/css" href="./header.css"/>
+    <meta name="keywords" content="ibrahim,ibrahim orak,ibrahimorak">
+    <title>İbrahimin Sayfası</title>
+    <style>
+        p {
+            margin-left:20px;
+        }
+        h3 {
+            border-top: 1px solid black;
+            background-color: antiquewhite;
+            height: 40px;
+            line-height: 40px;
+            padding-left:10px
+        }
+        h1{
+            height: 100px;
+            width: 100%;
+            background-color: aqua;
+            line-height: 100px;
+            text-align: center;
+        }
+        i{
+            padding-left:5px;
+        }
+        .my-picture{
+            height: 35%;;
+            width: 15%;
+            background-image: url("images/iso.jpg");
+            background-repeat: no-repeat;
+            display:inline-block;
+            border-radius: 10%;
+            background-size: 100%;
+            margin-top: 1.17em;
+
+        }
+
+    </style>
+</head>
+<body >
+    <header>
+
+
+<table border="0"  >    
+    
+    
+    <tr><td></td></tr>
+    <tr><td></td></tr>
+    <tr><td></td></tr>
+
+
+
+
+
+
+
+
+</table>
+
+
+
+
+        <div>
+            <i class="fas fa-globe-americas" style="color:white; font-size: 24px;"></i>
+            <span class="title">Ibrahimin Dünyası</span>
+        </div>
+        <div class="links">
+            <div class="benimsitem">
+                <ul>
+                    <li class="active">
+                        <a href="#"><i class="fas fa-home"></i> Anasayfa</a>
+                    </li>
+                    <li>
+                        <a href="hobilerim.html"><i class="fas fa-snowboarding"></i> Hobilerim</a>
+                    </li>
+                    <li>
+                        <a href="sehirler.html"><i class="fas fa-route"></i> Nerelerimi Gezdik</a>
+                    </li>
+                    <li>
+                        <a href="SevdigimMuzikler.html"><i class="fab fa-itunes-note"></i> Muziklerim</a>
+                    </li>
+                    <li>
+                        <a href="./sevdigimOyunlar.html"><i class="fas fa-trophy"></i> oyunlar</a>
+                    </li>
+                    <li><a target="_blank" href="http://ahmetkerem.125mb.com"><i></i>kerem abimin sitesi</a></li>
+                </ul>
+            </div>
+            <div id="digersiteler" class="digersiteler">
+                <a> Diğer Siteler</a>
+                <ul>
+                    <li><a target="_blank" href="http://www.google.com"><i style="margin-right:5px;color:yellow" class="fab fa-google"></i>Google</a></li>
+                    <li><a target="_blank" href="http://www.facebook.com"><i style="margin-right:5px;color:yellow" class="fab fa-facebook"></i>Facebook</a></li>
+                    <li><a target="_blank" href="http://www.youtube.com"><i style="margin-right:5px;color:yellow" class="fab fa-youtube"></i>Youtube</a></li>
+                    <li><a target="_blank" href="http://www.soundcloud.com"><i style="margin-right:5px;color:yellow" class="fab fa-soundcloud"></i>soundcloud</a></li>
+                    <li><a target="_blank" href="http://www.gmail.com"><i style="margin-right:5px;color:yellow" class="fas fa-envelope-square"></i>Gmail</a></li>
+                    <li><a target="_blank" href="http://www.Instagram.com"><i style="margin-right:5px;color:yellow" class="fab fa-instagram"></i>Instagram</a></li>
+                    <li><a target="_blank" href="http://www.twitter.com"><i style="margin-right:5px;color:yellow" class="fab fa-twitter"></i>twitter</a></li>
+                    <li><a target="_blank" href="http://www.messenger.com"><i style="margin-right:5px;color:yellow" class="fab fa-facebook-messenger"></i>Facebook Messenger</a></li>
+                    <li><a target="_blank" href="http://tr.pinterest.com"><i style="margin-right:5px;color:yellow" class="fab fa-pinterest"></i>pinterest</a></li>
+                    <li><a target="_blank" href="http://tr.whatsapp.com"><i style="margin-right:5px;color:yellow" class="fab fa-whatsapp-square"></i>whatsapp</a></li>
+                    <li><a target="_blank" href="https://web.telegram.org/"><i style="margin-right:5px;color:yellow"class="fab fa-telegram"></i>telegram</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <h2 class="slayt" style= "height: 50px;line-height: 50px;margin-top:75px;">
+                <marquee  scrollamoynt="25">
+                    <b>İbrahim Kimdir?</b>
+                </marquee>
+    </h2>
+    <p >nasılsın? burası ibrahimin sayfası</p>
+    <div style="overflow: hidden">
+        <div class="my-picture">
+        </div>
+        <div style="width: 80%;display: inline-block;vertical-align:top">
+
+            <h3>
+             Ailesi
+            </h3>
+            <p>
+                <i> Orak Ailesinin 1. çocuğudur.</i>
+            </p>
+            <h3>
+                Mesleği
+            </h3>
+                 <p>şuanlık kimyager ama gelecekte bilim adamı olup şimşek kıranı icat edecek </p>
+            <h3>
+                Sevdiği Şeyler
+            </h3>
+            <p> <strong>kakao olmayan karışık dondurma sever</strong></p>
+            <code></code>
+        </div>
+    </div>
+       <script>
+        document.getElementById('digersiteler').addEventListener('click',function(){
+            this.classList.toggle('.active')
+        })
+        </script>
+
+    </body>
+</html>
